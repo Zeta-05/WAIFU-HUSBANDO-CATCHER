@@ -1,4 +1,4 @@
-pimport random
+import random
 from html import escape 
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
