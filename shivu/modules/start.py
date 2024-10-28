@@ -1,4 +1,4 @@
-import random
+limport random
 from html import escape 
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
@@ -36,9 +36,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         
 
-***🦋‌⃝ᴢᴛx°•.
-
-╭───────────────────▣
+***╭───────────────────▣
 │❍ ʜᴇʏ ᴘʟᴀʏᴇʀ •
 │❍ ɪ ᴀᴍ 𝗛σѕιησ 𝗛αяєм ᴀ ɢᴀᴍᴇ
 ├───────────────────▣
@@ -100,9 +98,7 @@ async def button(update: Update, context: CallbackContext) -> None:
         caption = f"""
        
 
-***🦋‌⃝ᴢᴛx°•.
-
-╭───────────────────▣
+***╭───────────────────▣
 │❍ ʜᴇʏ ᴘʟᴀʏᴇʀ •
 │❍ ɪ ᴀᴍ 𝗛σѕιησ 𝗛αяєм ᴀ ɢᴀᴍᴇ
 ├───────────────────▣
