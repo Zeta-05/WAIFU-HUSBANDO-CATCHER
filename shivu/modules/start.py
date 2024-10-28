@@ -34,17 +34,25 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         
         caption = f"""
-        ***Heyyyy...***
+        
 
-***I am An Open Source Character Catcher Bot...​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+***🦋‌⃝ᴢᴛx°•.
+
+╭───────────────────▣
+│❍ ʜᴇʏ ᴘʟᴀʏᴇʀ •
+│❍ ɪ ᴀᴍ 𝗛σѕιησ 𝗛αяєм ᴀ ɢᴀᴍᴇ
+├───────────────────▣
+│❍ ᴄʜᴇᴄᴋ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ʙʏ ʜᴇʟᴘ 
+│❍ ʜᴀʀᴇᴍ...˹ ɢᴜᴇss ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ˼
+╰───────────────────▣***
         """
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/ZTX_ORG')]
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
+            [InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f'https://t.me/{SUPPORT_CHAT}')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -54,11 +62,11 @@ async def start(update: Update, context: CallbackContext) -> None:
     else:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/ZTX_ORG')]
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɴᴏᴡ ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
+            [InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f'https://t.me/{SUPPORT_CHAT}')]
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -90,18 +98,26 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***Hoyyyy...*** ✨
+       
 
-***I am An Open Source Character Catcher Bot..​Add Me in Your group.. And I will send Random Characters After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /Harem... So add in Your groups and Collect Your harem***
+***🦋‌⃝ᴢᴛx°•.
+
+╭───────────────────▣
+│❍ ʜᴇʏ ᴘʟᴀʏᴇʀ •
+│❍ ɪ ᴀᴍ 𝗛σѕιησ 𝗛αяєм ᴀ ɢᴀᴍᴇ
+├───────────────────▣
+│❍ ᴄʜᴇᴄᴋ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ʙʏ ʜᴇʟᴘ 
+│❍ ʜᴀʀᴇᴍ...˹ ɢᴜᴇss ᴛᴏ ᴄᴏʟʟᴇᴄᴛ ˼
+╰───────────────────▣***
         """
 
         
         keyboard = [
-            [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
-            [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://t.me/ZTX_ORG')]
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
+            [InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f'https://t.me/{{SUPPORT_CHAT}')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
