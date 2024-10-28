@@ -5,7 +5,7 @@ class Config(object):
     OWNER_ID = "7038202445"
     sudo_users = "7757912959", "7038202445"
     GROUP_ID = -1002324830715
-    TOKEN = "7774006210:AAEdO4XWeHabljjIg2Dm4ZQlWVgkgqqFJFQ"
+    TOKEN = "7921454778:AAE67yDzw2VvhVgHgkW4I6oZRKGeZAoL2X0"
     mongo_url = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://graph.org/file/34ce254537a31ca2a788b-f8b59bff546af8dc58.jpg", "https://graph.org/file/0cd48cfd409203a00da74-2a919fe99dd1b238ec.jpg"]
     SUPPORT_CHAT = "https://t.me/Anime_Group_India_Chat"
