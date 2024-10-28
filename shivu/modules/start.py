@@ -47,10 +47,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'{SUPPORT_CHAT}'),
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/Shorekeeper_updates')],
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
-            [InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f'https://t.me/{SUPPORT_CHAT}')]
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/OFFICIAL_WHITEBIRD')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -61,10 +61,10 @@ async def start(update: Update, context: CallbackContext) -> None:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɴᴏᴡ ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'{SUPPORT_CHAT}'),
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/Shorekeeper_updates')],
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
-            [InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f'https://t.me/{SUPPORT_CHAT}')]
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/OFFICIAL_WHITEBIRD')]
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -110,10 +110,10 @@ async def button(update: Update, context: CallbackContext) -> None:
         
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}'),
+            [InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'{SUPPORT_CHAT}'),
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f'https://t.me/Shorekeeper_updates')],
             [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help')],
-            [InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f'https://t.me/{SUPPORT_CHAT}')]
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/OFFICIAL_WHITEBIRD')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
