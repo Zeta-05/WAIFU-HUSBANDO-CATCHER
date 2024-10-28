@@ -6,7 +6,7 @@ class Config(object):
     sudo_users = "7757912959", "7038202445"
     GROUP_ID = -1002324830715
     TOKEN = "7297627525:AAHg39Ax0ksgV0ngyblMMCAe4a7lEw0v2zo"
-    mongo_url = "mongodb+srv://daspulin59:<db_password>@cluster0.twduf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    mongo_url = "mongodb+srv://vjimmy276:<db_password>@ztx.pxamg.mongodb.net/?retryWrites=true&w=majority&appName=ZTX"
     PHOTO_URL = ["https://graph.org/file/34ce254537a31ca2a788b-f8b59bff546af8dc58.jpg", "https://graph.org/file/0cd48cfd409203a00da74-2a919fe99dd1b238ec.jpg"]
     SUPPORT_CHAT = "https://t.me/Anime_Group_India_Chat"
     UPDATE_CHAT = "https://t.me/Shorekeeper_updates"
